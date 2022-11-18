@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template: 30px 70px / repeat(3, 1fr)
+}
+
+.header-top-container {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    background-color: #EDF2F4;
+    grid-column: span 3;
+}
+
+.weather {
+
+}
+
+.papers {
+    display: flex;
+    
+}
+
+.contact {
+
+}
